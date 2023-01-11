@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
+    transition: all 0.3 linear;
+}
+.front-content{
+position: absolute;
+top:16rem;
+left:10rem;
+}.main-heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+}
+.socil-madia-icon i{
+    font-size: 26px;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+
+.devalop{
+    letter-spacing: 2px;
+    color: rgb(255, 0, 144);
+}
+.image-logo{
+    position: absolute;
+    top: 26%;
+    left: 60%;
+    width: 28%;
+    height: 70%;
+    transition: all ease;
+    cursor: pointer;
+    
+}
+ .image-logo:hover {
+transform: scale(0.9);
+}
+.image-logo-one{
+    position: absolute;
+    top: 34%;
+    left: 64%;
+    width: 19%;
+    height: 50%;
+    cursor: pointer;
+    transform: scale(0.8);
+}.image-logo-two{
+    position: absolute;
+    top: 19%;
+    left: 56%;
+    width: 28%;
+    height: 70%;
+    z-index: -1;
+     cursor: pointer;
+}
+
+
+
+ /*--------About page styles----------*/
+ 
+   /*----container class----*/
+.container-flud{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #74EbD5;
+    background-image: linear-gradient(90deg,#74ebd5 0%, #9face6 100%);
+}     
+   /* avery box -------*/
+
+.box{
+    width: 300px;
+    height: 455px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 80px;
+    margin: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+
+}      /* avrey box h3 tag------*/
+
+.box h3{
+    font-size: 35px;
+    padding: 20px 0;
+    color:#333;
+    font-weight: 700;
+    font-family:cursive;
+}       /* box button tag------*/
+.box button{
+    width: 190px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.box p{
+    color:#0093e9;
+    font-weight: 700;
+}.box h4{
+    color: #ef0346;
+    font-weight: 300;
+}
+ .box button:hover{
+    letter-spacing: 1px;
+    opacity: .8;
+ }
+  .box::before{
+    width: 100%;
+    height: 100%;
+    content:"" ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+ }
+ .box::after{
+    width: 100%;
+    height: 100%;
+    background-color: #fbda61;
+    background-image: linear-gradient(45deg,#fbda61 0%,#ff00b3 100%);
+    content:"" ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    clip-path: circle(15% at 90% 10%);
+    transition: .2s;
+ }
+  .box .count{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color:#fff;
+ }
+  .box:nth-child(2):after{
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg,#0093e9 0%,#00ffe1 100%);
+ }
+ .box:nth-child(3):after{
+    background-color: #08aeea;
+    background-image: linear-gradient(160deg,#08aeea 0%,#0ffb5e 100%);
+ }
+ .box:hover::after{
+    clip-path: circle(100%);
+ }
+ .box:hover h3{
+    color: #fff;
+ }
+ .box:hover p{
+    color: #fff;
+ }
+ .box:hover button{
+    color: #333;
+    background-color: #fff;
+ }
+.box:hover::before{
+    background-color: rgb(0,0,0,.1);
+}
+/*----------my porject page style --------*/
+
+
+.projects-list{
+    width: 100%;
+    margin-left: 100px;
+    display: block;
+    position: relative;
+    
+}
+/*.box-1{
+    width: 280px;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 20px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+.box-1:hover{
+    box-shadow: 0 0 25px 10px rgba(0,0,0,0.327);
+}
+
+.box-1 p{
+    text-align: start;
+    display: flex;
+
+} .box-1 h3,h4{
+    text-align: start;
+    display: flex;
+    font-size: 18px;
+    margin-top: -10px;
+    cursor: pointer;
+
+}
+ */
+

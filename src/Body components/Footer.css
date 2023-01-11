@@ -1,0 +1,46 @@
+.footor{
+    width: 100%;
+    height: 50vh;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 100%;
+    left: 0px;
+ }
+ .footor-menu{
+    display: flex;
+
+ }.footor-menu ul{
+    display: flex;
+    padding: 40px;
+ }
+ 
+ .footor-menu ul li {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    left: 65%;
+    cursor: pointer;
+ } .footor-menu ul li:hover {
+color: orangered;
+transform: scale(0.9);
+ }
+ .socil-media i{
+padding: 20px;
+font-size: 40px;
+margin-top: -40px;
+cursor: pointer;
+
+ } .socil-media i:hover{
+    transform: scale(0.8);
+ }
+ 
+ .info{
+    color: aquamarine;
+    margin-top: 40px;
+ }
+ @media screen and(max-width:1040px) {
+       
+ }
