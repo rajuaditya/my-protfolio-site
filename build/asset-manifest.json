@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d29e71b0.css",
+    "main.js": "/static/js/main.fb6f4a4e.js",
+    "static/media/my picture.jpg.png": "/static/media/my picture.jpg.043c8f0b2035c8a4dd38.png",
+    "static/media/malti.jpg": "/static/media/malti.96131482a6b3f7a6e94a.jpg",
+    "static/media/img5.jpg": "/static/media/img5.b136bde5a43a965ce590.jpg",
+    "index.html": "/index.html",
+    "main.d29e71b0.css.map": "/static/css/main.d29e71b0.css.map",
+    "main.fb6f4a4e.js.map": "/static/js/main.fb6f4a4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d29e71b0.css",
+    "static/js/main.fb6f4a4e.js"
+  ]
+}
