@@ -23,7 +23,7 @@ const Navbar = () => {
             </ul>
             <div className='hambarger' onClick={()=>setClick(!click)}>
               {
-                click ? (<i class="fa-sharp fa-solid fa-xmark" style={{"color":"red"}}></i>):(<i class="fa-solid fa-bars" style={{"color":"white"}}></i> )}
+                click ? (<i className="fa-sharp fa-solid fa-xmark" style={{"color":"red"}}></i>):(<i className="fa-solid fa-bars" style={{"color":"white"}}></i> )}
               </div>
         </div>
     </section>
